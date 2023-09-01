@@ -1,0 +1,135 @@
+@media screen and (min-width:320px) and (max-width:764px)  {
+    .navBar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .image {
+        display: flex;
+    }
+
+    .navBar_item {
+        display: flex;
+        align-items: center;
+    }
+
+    .navBar_item a {
+        padding-right: 10px;
+    }
+
+    .navBar_link {
+        text-decoration: none;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+    }
+
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 29px;
+    }
+
+   .main-container h1 {
+        font-size: 32px;
+        width: 355px;
+        height: 89px;
+        line-height: 39px;
+        margin-left: 15px;
+        letter-spacing: 0.2px;
+    }
+
+    .main_item_buttons {
+        display: flex;
+        gap:10px;
+    }
+
+    .main_item_button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 128px;
+        height: 52px;
+        padding: 15px 40px 15px 40px;
+        color: #FF685B;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+        border: solid 0.1em;
+        border-color: #FF685B;
+        font-size: 14px;
+        margin-left: 15px;
+    }
+
+    .main_item_button:hover {
+        background-color: #FF685B;
+        color: #fff;
+    }
+
+
+    .main_item_button_right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 155px;
+        height: 52px;
+        padding: 15px 40px 15px 40px;
+        color: #FF685B;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+        border: solid 0.1em;
+        border-color: #FF685B;
+        font-size: 14px;
+    }
+
+    .main_item_button_right:hover {
+        background-color: #FF685B;
+        color: #fff;
+    }
+
+    .card-container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 30px;
+
+    }
+
+    .card1,
+    .card2,
+    .card3 {
+        width: 240px;
+        padding: 35px 40px 35px 40px;
+        box-shadow: 2px 5px 6px rgba(0, 0, 0, 0.1);
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .card1 p,
+    .card2 p,
+    .card3 p {
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+    }
+
+    .card1_img,
+    .card2_img,
+    .card3_img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .card1 h5,
+    .card2 h5,
+    .card3 h5 {
+        margin: 5px 0 0 0;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+    }
+}

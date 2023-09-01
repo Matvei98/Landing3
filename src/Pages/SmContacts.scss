@@ -1,0 +1,28 @@
+@media screen and (min-width:320px) and (max-width:764px) { 
+
+	.buttons {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 106px;
+		height: 36px;
+		color: #FF685B;
+		background-color: #FFFFFF;
+		border-radius: 7px;
+		border: solid 0.1em;
+		border-color: #FF685B;
+		font-size: 20px;
+	}
+
+	.buttons:hover {
+		background-color: #FF685B;
+		color: #fff;
+	}
+
+	.headline {
+		margin-left: 130px;
+		margin-top: 80px;
+		font-size: 28px;
+	}
+
+}

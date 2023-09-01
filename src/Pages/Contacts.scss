@@ -1,0 +1,92 @@
+@media screen and (orientation: landscape) and (min-width : 768px) and (max-width:1199px) {
+.navBar-contacts{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-left: 71px;
+margin-right: 70px;
+margin-top: 20px;
+}
+
+.navBar-contacts_item{
+display: flex;
+align-items: center;
+}
+.navBar-contacts_item a {
+text-decoration: none;
+padding-right: 59px;
+font-size: 15px;
+line-height: 24px;
+}
+
+	.buttons {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 189px;
+		height: 40px;
+		color: #FF685B;
+		background-color: #FFFFFF;
+		border-radius: 7px;
+		border: solid 0.1em;
+		border-color: #FF685B;
+		font-size: 20px;
+	}
+
+	.buttons:hover {
+		background-color: #FF685B;
+		color: #fff;
+	}
+
+	.headline {
+		margin-left: 197px;
+		margin-top: 184px;
+		font-size: 58px;
+	}
+}
+
+@media screen and (orientation: portrait) and (min-width : 768px) and (max-width:1199px) {
+	.navBar-contacts {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-top: 18px;
+		margin-left: 61px;
+		margin-right: 50px;
+	}
+	.navBar-contacts_item{
+		display: flex;
+		align-items: center;
+
+	}
+	.navBar-contacts_item a {
+		text-decoration: none;
+		padding-right: 59px;
+		font-size: 15px;
+		line-height: 24px;
+		}
+	.buttons {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 189px;
+		height: 40px;
+		color: #FF685B;
+		background-color: #FFFFFF;
+		border-radius: 7px;
+		border: solid 0.1em;
+		border-color: #FF685B;
+		font-size: 20px;
+	}
+
+	.buttons:hover {
+		background-color: #FF685B;
+		color: #fff;
+	}
+
+	.headline {
+		margin-left: 197px;
+		margin-top: 184px;
+		font-size: 58px;
+	}
+}

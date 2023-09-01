@@ -1,0 +1,75 @@
+@media only screen and (min-width:320px) and (max-width:1120px) {
+body {
+		margin: 0;
+	}
+}
+	
+@font-face {
+	font-family: 'Montserrat-Bold', sans-serif;
+	src: url(../assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf) format('ttf');
+	font-family: 'Montsserat';
+	src:url(../assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf) format('ttf');
+	font-family: 'Open-Sans';
+	src: url(../assets/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf) format('ttf')
+}
+
+.profile-container p {
+	font-family: 'Montserrat-Bold', sans-serif;
+	font-weight: 700;
+}
+
+.profile_container_buttons button {
+	font-family: 'Montserrat-Bold', sans-serif;
+	font-weight: 700;
+}
+
+.button_item {
+	font-family: 'Montserrat-Bold', sans-serif;
+	font-weight: 500;
+}
+
+.navBar_link {
+	font-family: 'Open-Sans';
+	font-weight: 600;
+}
+
+.navBar-contacts_item a {
+font-family: 'Open-Sans';
+font-weight: 600;		
+}
+.buttons{
+	font-family: 'Montserrat-Bold', sans-serif;
+	font-weight: 500;	
+}
+.headline{
+	font-family: 'Montserrat-Bold', sans-serif;
+	font-weight: 700;
+}
+.main-headline{
+	font-family: 'Montserrat-Bold', sans-serif;
+	font-weight: 700;	
+}
+.button-modal button {
+	font-family: 'Montserrat-Bold', sans-serif;
+	font-weight: 500;	
+}
+.main_item_button{
+	font-family: 'Montserrat-Bold', sans-serif;
+	font-weight: 700;
+}
+.main_item_button_right{
+	font-family: 'Montserrat-Bold', sans-serif;
+	font-weight: 700;
+}
+.card1 h5,
+.card2 h5,
+.card3 h5{
+	font-family: 'Montserrat-Bold', sans-serif;
+	font-weight: 700;
+}
+.card1 p,
+.card2 p,
+.card3 p{
+	font-family: 'Montsserat';
+	font-weight: 400;
+}
