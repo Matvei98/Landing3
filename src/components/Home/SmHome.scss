@@ -1,5 +1,5 @@
 @media screen and (min-width:320px) and (max-width:764px)  {
-    .navBar {
+    .navBar-home {
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -12,16 +12,16 @@
         display: flex;
     }
 
-    .navBar_item {
+    .navBar-home_item {
         display: flex;
         align-items: center;
     }
 
-    .navBar_item a {
+    .navBar-home_item a {
         padding-right: 10px;
     }
 
-    .navBar_link {
+    .navBar-home_link {
         text-decoration: none;
         font-size: 15px;
         line-height: 24px;
@@ -31,10 +31,9 @@
     .main-container {
         display: flex;
         flex-direction: column;
-        margin-bottom: 29px;
     }
 
-   .main-container h1 {
+   .main-headline {
         font-size: 32px;
         width: 355px;
         height: 89px;
@@ -46,6 +45,7 @@
     .main_item_buttons {
         display: flex;
         gap:10px;
+        margin-bottom: 29px;
     }
 
     .main_item_button {
