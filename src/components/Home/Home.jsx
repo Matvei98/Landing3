@@ -3,8 +3,8 @@ import { Cards } from './Cards';
 import { Link } from 'react-router-dom';
 import Logo from './Images/logo.png';
 import Arrow from './Images/arrow2.png';
-import './Home.scss';
-
+import '../Home/Home.scss';
+import '../Home/SmHome.scss';
 
 export const Home = () => {
 	const handleContacts = () => {
