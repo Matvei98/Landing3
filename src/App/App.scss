@@ -1,9 +1,17 @@
-@media only screen and (min-width:320px) and (max-width:1120px) {
+@media screen and  (min-width:784px) and (max-width:1120px)  {
 body {
 		margin: 0;
 	}
 }
 	
+@media screen and (min-width:320px) and (max-width:768px) {
+body {
+	margin: 0;
+}
+}
+
+
+
 @font-face {
 	font-family: 'Montserrat-Bold', sans-serif;
 	src: url(../assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf) format('ttf');
