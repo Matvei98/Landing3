@@ -1,4 +1,4 @@
-@media screen and (orientation: landscape) and (min-width : 768px) and (max-width:1199px) {
+@media screen and (orientation: landscape) and (min-width:784px) and (max-width:1120px)  {
 .navBar-contacts{
 display: flex;
 align-items: center;
@@ -45,7 +45,7 @@ line-height: 24px;
 	}
 }
 
-@media screen and (orientation: portrait) and (min-width : 768px) and (max-width:1199px) {
+@media screen and (orientation: portrait) and  (min-width:784px) and (max-width:1120px) {
 	.navBar-contacts {
 		display: flex;
 		align-items: center;
