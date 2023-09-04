@@ -1,4 +1,4 @@
-@media screen and (orientation: landscape) and  (min-width:768px) and (max-width:1185px)  {
+@media screen and (orientation: landscape) and (min-width:768px) and (max-width:1185px) {
     .navBar-home {
         display: flex;
         align-items: center;
@@ -6,13 +6,15 @@
         margin-top: 18px;
         margin-left: 50px;
     }
+
     .image {
         display: flex;
     }
+
     .navBar-home_item {
         display: flex;
         align-items: center;
-        margin-left: 700px;
+       margin-right: 30px;
     }
 
     .navBar-home_link {
@@ -126,19 +128,26 @@
     }
 }
 
-@media screen and (orientation: portrait) and  (min-width:768px) and (max-width:1185px)  {
-    .navBar-home_item {
+@media screen and (orientation: portrait) and (min-width:768px) and (max-width:1185px) {
+    .navBar-home {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        margin-top: 18px;
-        margin-left: 61px;
-        margin-right: 20px;
     }
 
     .navBar-home_item {
         display: flex;
         align-items: center;
+        margin-top: 18px;
+        margin-left: 61px;
+        margin-right: 20px;
+    }
+
+    .image {
+        display: flex;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 700px;
     }
 
     .navBar-home_link {
