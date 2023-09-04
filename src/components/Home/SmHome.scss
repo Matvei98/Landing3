@@ -34,12 +34,10 @@
     }
 
    .main-headline {
-        font-size: 32px;
-        width: 355px;
-        height: 89px;
-        line-height: 39px;
-        margin-left: 15px;
-        letter-spacing: 0.2px;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    font-size: 28px;
     }
 
     .main_item_buttons {
