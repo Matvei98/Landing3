@@ -1,4 +1,4 @@
-@media screen and (orientation: landscape) and  (min-width:784px) and (max-width:1120px)  {
+@media screen and (orientation: landscape) and  (min-width:768px) and (max-width:1185px)  {
     .navBar-home {
         display: flex;
         align-items: center;
@@ -12,12 +12,14 @@
     .navBar-home_item {
         display: flex;
         align-items: center;
+        margin-left: 700px;
     }
 
     .navBar-home_link {
         text-decoration: none;
         padding-right: 49px;
         font-size: 15px;
+        color: #737373;
     }
 
     .main-container {
@@ -106,6 +108,7 @@
         font-size: 14px;
         line-height: 20px;
         letter-spacing: 0.2px;
+        color: #737373;
     }
 
     .card1_img,
@@ -123,7 +126,7 @@
     }
 }
 
-@media screen and (orientation: portrait) and  (min-width:784px) and (max-width:1120px)  {
+@media screen and (orientation: portrait) and  (min-width:768px) and (max-width:1185px)  {
     .navBar-home_item {
         display: flex;
         align-items: center;
@@ -142,6 +145,7 @@
         text-decoration: none;
         padding-right: 49px;
         font-size: 15px;
+        color: #737373;
     }
 
     .main-container {
@@ -228,6 +232,7 @@
         font-size: 14px;
         line-height: 20px;
         letter-spacing: 0.2px;
+        color: #737373;
     }
 
     .card1_img,
