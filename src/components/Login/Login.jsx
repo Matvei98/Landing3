@@ -1,6 +1,7 @@
 import { useState } from 'react';
-import './Login.scss';
-import './SmLogin.scss';
+import '../Login/LgLogin.scss';
+import '../Login/MdLogin.scss';
+import '../Login/SmLogin.scss';
 
 export const Login = () => {
   const [username, setUsername] = useState('');

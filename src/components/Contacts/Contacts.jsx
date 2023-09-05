@@ -1,7 +1,8 @@
-import Logo from '../components/Home/Images/logo.png';
-import Arrow from '../components/Home/Images/arrow2.png';
-import '../Pages/Contacts.scss';
-import '../Pages/SmContacts.scss';
+import Logo from '../Home/Images/logo.png';
+import Arrow from '../Home/Images/arrow2.png';
+import '../Contacts/LgContacts.scss';
+import '../Contacts/MdContacts.scss';
+import '../Contacts/SmContacts.scss';
 
 export const Contacts = () => {
 	const handleBackProfile = () => {
@@ -24,7 +25,7 @@ export const Contacts = () => {
 					</button>
 				</div>
 			</div>
-			<img src={Arrow} alt='picture' />
+			<img src={Arrow} alt='picture' className='arrow'/>
 			<h1 className='headline'>Контакты</h1>
 		</>
 	);

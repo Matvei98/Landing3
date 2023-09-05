@@ -2,7 +2,8 @@ import Card1 from '../Home/Images/card1.png';
 import Card2 from '../Home/Images/card2.png';
 import Card3 from '../Home/Images/card3.png';
 import Arrow from '../Home/Images/arrow.png';
-import '../Home/Home.scss';
+import '../Home/LgHome.scss';
+import '../Home/MdHome.scss';
 import '../Home/SmHome.scss';
 export const Cards = () => {
 	return (

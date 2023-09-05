@@ -1,0 +1,73 @@
+@media screen and (min-width:1200px) {
+	.navBar_profile {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-top: 18px;
+		margin-left: 61px;
+		margin-right: 60px;
+		margin-bottom: 10px;
+	}
+
+	.navBar_item {
+		display: flex;
+	}
+
+	.navBar_link {
+		text-decoration: none;
+		padding-right: 49px;
+		font-size: 15px;
+	}
+
+	.button_item {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 189px;
+		height: 40px;
+		padding: 8px 60px 8px 60px;
+		color: #FF685B;
+		background-color: #FFFFFF;
+		border-radius: 7px;
+		border: solid 0.1em;
+		border-color: #FF685B;
+	}
+
+	.button_item:hover {
+		background-color: #FF685B;
+		color: #fff;
+	}
+
+	.profile-container {
+		margin: 141px 0 228px 197px;
+	}
+
+	.profile-container p {
+		font-size: 58px;
+	}
+
+	.profile_container_buttons {
+		display: flex;
+		gap: 10px;
+
+	}
+
+	.profile_container_buttons button {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 228px;
+		height: 52px;
+		color: #FF685B;
+		background-color: #FFFFFF;
+		border-radius: 5px;
+		border: solid 0.1em;
+		border-color: #FF685B;
+		font-size: 14px;
+	}
+
+	.profile_container_buttons button:hover {
+		background-color: #FF685B;
+		color: #fff;
+	}
+}

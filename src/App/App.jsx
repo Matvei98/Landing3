@@ -1,9 +1,10 @@
 
-import { Contacts } from '../Pages/Contacts'
+import { Contacts } from '../components/Contacts/Contacts'
 import { Route, Routes} from "react-router-dom"
 import { Login } from '../components/Login/Login'
-import { Profile } from '../Pages/Profile'
-import { Home } from '../components/Home/Home'
+import { Profile } from '../components/Profile/Profile'
+import {Home} from '../components/Home/Home'
+
 import '../App/App.scss';
 
 

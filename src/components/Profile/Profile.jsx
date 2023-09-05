@@ -1,8 +1,11 @@
 import { Link } from 'react-router-dom';
-import Logo from '../components/Home/Images/logo.png';
-import Arrow from '../components/Home/Images/arrow2.png';
-import '../Pages/Profile.scss';
-import '../Pages/SmProfile.scss';
+import Logo from '../Home/Images/logo.png';
+import Arrow from '../Home/Images/arrow2.png';
+import '../Profile/LgProfile.scss';
+import '../Profile/MdProfile.scss';
+import '../Profile/SmProfile.scss';
+
+
 export const Profile = () => {
 	const handleLogout = () => {
 		localStorage.removeItem('isLoggedIn');
@@ -30,7 +33,7 @@ export const Profile = () => {
 					<button className='button_item' onClick={handleLogout}>Выйти</button>
 				</div>
 			</div>
-			<img src={Arrow} alt='picture' />
+			<img src={Arrow} alt='picture' className='arrow'/>
 			<div className='profile-container'>
 				<p>Привет, {username}</p>
 				<div className='profile_container_buttons'>
